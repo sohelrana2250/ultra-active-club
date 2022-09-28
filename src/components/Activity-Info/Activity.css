@@ -1,0 +1,45 @@
+.product img {
+
+    width: 295px;
+    height: 286px;
+
+
+
+}
+
+.product {
+
+    width: 300px;
+    height: 565px;
+    border: 2px solid rgb(18, 94, 34);
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.product-info {
+
+    margin: 14px;
+    margin-bottom: 0px;
+}
+
+.button-card {
+    width: 100%;
+    background-color: bisque;
+    border-radius: 0px 0px 8px 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn-text {
+
+    margin: 10px;
+}
+
+.button-card:hover {
+
+    background-color: orangered;
+}

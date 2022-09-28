@@ -1,0 +1,25 @@
+.margint-section {
+    margin-top: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+
+
+}
+
+.Shop {
+
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.product-container {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.card-container {
+
+    background-color: aquamarine;
+}
