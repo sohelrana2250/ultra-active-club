@@ -8,6 +8,8 @@ const Header = () => {
 
     const [activity, setActivity] = useState([])
 
+    const [activityCard, setActivityCard] = useState([])
+
     useEffect(() => {
 
         fetch('fakeData.json').then((res) => res.json()).then((data) => setActivity(data)).catch((error) => console.log(error.message))
@@ -15,7 +17,22 @@ const Header = () => {
 
     }, [])
 
-    console.log(activity)
+    //console.log(activity)
+
+    const HandelClick = (clickData) => {
+
+
+        const newActivityCard = [...activityCard, clickData];
+        setActivityCard(newActivityCard);
+
+
+
+        //console.log(clickData);
+    }
+
+    console.log(activityCard);
+
+
 
 
     return (
@@ -37,13 +54,13 @@ const Header = () => {
             <div className='margint-section Shop'>
                 <div className="product-container">
                     {
-                        activity.map((data, index) => <Activity key={index} data={data}></Activity>)
+                        activity.map((data, index) => <Activity key={index} data={data} handelAddActivity={HandelClick}></Activity>)
                     }
                 </div>
 
                 <div className="card-container">
 
-                    <Card></Card>
+                    <Card activityCard={activityCard}></Card>
 
 
 

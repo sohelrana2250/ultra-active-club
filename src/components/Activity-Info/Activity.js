@@ -4,6 +4,7 @@ import './Activity.css'
 const Activity = (props) => {
 
     const { title, Information, img, age, time } = props.data;
+    const { handelAddActivity } = props;
 
 
     return (
@@ -17,7 +18,7 @@ const Activity = (props) => {
                 <p>time Required :{time} s</p>
             </div>
 
-            <button className='button-card'><p>Add To List</p></button>
+            <button className='button-card'><p onClick={() => handelAddActivity(props.data)}>Add To List</p></button>
 
 
         </div>

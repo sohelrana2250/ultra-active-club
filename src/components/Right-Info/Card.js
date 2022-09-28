@@ -1,8 +1,11 @@
 import React from 'react';
 import './Card.css'
-const Card = () => {
+const Card = (props) => {
+    const { activityCard } = props;
     return (
         <div className='card'>
+
+            <h3>Selected Activity Card : {activityCard.length}</h3>
             <h1>Card</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In non quas corporis laborum repellendus repellat, officiis dolor temporibus minima nihil maiores quibusdam consequuntur est. Dicta cum aut veniam voluptas sequi?</p>
 
