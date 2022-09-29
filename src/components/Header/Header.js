@@ -3,6 +3,7 @@ import Activity from '../Activity-Info/Activity';
 import Card from '../Right-Info/Card';
 import './Header.css'
 import logo from '../../Image/activity.png'
+import Blog from '../Blog/blog'
 
 
 
@@ -37,9 +38,12 @@ const Header = () => {
 
 
 
+
+
     return (
 
         <div>
+
 
             <div>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -49,8 +53,13 @@ const Header = () => {
 
                     </div>
 
+
+
+
                 </nav>
             </div>
+
+            <Blog></Blog>
 
             <h2 className='text-center mt-3 fs-3'><b>Select today’s FootBall Activity</b></h2>
 

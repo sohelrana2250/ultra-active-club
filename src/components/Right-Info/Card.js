@@ -25,40 +25,24 @@ const Card = (props) => {
     const timeClick = (time) => {
 
         setItemActivity(time);
-        //  console.log(time)
-
-
 
     }
 
-    // const getItem = getItemActivity()
-
-
-
-
-
-
-
 
     const getItem = getItemActivity()
+
     useEffect(() => {
+
 
         for (const id in getItem) {
 
             setActivityTime(getItem[id].time);
 
+
+
         }
 
-
-
-
     }, [getItem])
-
-
-
-
-
-
 
 
 
@@ -88,10 +72,10 @@ const Card = (props) => {
 
                     </div>
                     <div className='col-3 weight'>
-                        <p>5.6<small>kg</small><br /><small>Height</small></p>
+                        <p>5.6<small> lnch</small><br /><small>Height</small></p>
                     </div>
                     <div className='col-3 weight'>
-                        <p>19<small>kg</small><br /><small>Age</small></p>
+                        <p>19<small>yrs</small><br /><small>Age</small></p>
                     </div>
 
                 </div>
@@ -139,7 +123,7 @@ const Card = (props) => {
 
                 <div className='mt-3 text-center'>
 
-                    <button type="button" className="btn btn-outline-danger btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <button type="button" className="btn btn-outline-danger btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
                         Activity Completed
                     </button>
 
@@ -155,7 +139,7 @@ const Card = (props) => {
 
 
 
-                <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div className="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div className="modal-dialog">
                         <div className="modal-content">
                             <div className="modal-header">
