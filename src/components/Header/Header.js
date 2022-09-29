@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Activity from '../Activity-Info/Activity';
 import Card from '../Right-Info/Card';
 import './Header.css'
+import logo from '../../Image/activity.png'
+
 
 
 const Header = () => {
@@ -42,14 +44,15 @@ const Header = () => {
             <div>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <div className="container-fluid">
-                        <b><button type="button" className="btn btn-primary fs-3"><b>FootBall Activity Club</b></button>
+                        <b><img src={logo} className='rounded-circle logo-image' alt="" /> <button type="button" className="btn btn-primary fs-3"><b>FootBall Activity Club</b></button></b>
 
-                        </b>
+
                     </div>
+
                 </nav>
             </div>
 
-
+            <h2 className='text-center mt-3 fs-3'><b>Select today’s FootBall Activity</b></h2>
 
             <div className='margint-section Shop'>
                 <div className="product-container">
