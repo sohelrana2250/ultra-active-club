@@ -48,7 +48,7 @@ const Header = () => {
             <div>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <div className="container-fluid">
-                        <b><img src={logo} className='rounded-circle logo-image' alt="" /> <button type="button" className="btn btn-primary fs-3"><b>FootBall Activity Club</b></button></b>
+                        <b><img src={logo} className='rounded-circle logo-image' alt="" /> <button type="button" className="btn btn-primary fs-3"><b>FootBall  Club Activity</b></button></b>
 
 
                     </div>

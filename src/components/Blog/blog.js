@@ -65,7 +65,7 @@ const blog = () => {
                                                 From the previous question, we found out that componentDidMount doesn't have the same behavior with useEffect hook, because componentDidMount invoked synchronously before the browser paints the screen, while useEffect is invoked asynchronously after the browser has already painted the screen.
                                             </p>
 
-                                            <p>The useEffect Hook allows us to replace repetitive component lifecycle code. Essentially, a Hook is a special function that allows you to “hook into” React features. Hooks are a great solution if you've previously written a functional component and realize that you need to add state to it.</p>
+                                            <p>You can have multiple useEffects in your code and this is completely fine! As hooks docs say, you should separate concerns. Multiple hooks rule also applies to useState - you can have multiple useState in one component to separate different part of the state, you don't have to build one complicated state object.</p>
                                         </div>
                                     </div>
                                 </div>
