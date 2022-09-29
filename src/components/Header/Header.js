@@ -20,7 +20,7 @@ const Header = () => {
 
     }, [])
 
-    //console.log(activity)
+
 
     const HandelClick = (clickData) => {
 
@@ -30,7 +30,7 @@ const Header = () => {
 
 
 
-        //console.log(clickData);
+
     }
 
 
@@ -50,14 +50,10 @@ const Header = () => {
                     <div className="container-fluid">
                         <b><img src={logo} className='rounded-circle logo-image' alt="" /> <button type="button" className="btn btn-primary fs-3"><b>FootBall  Club Activity</b></button></b>
 
-
                     </div>
-
-
-
-
                 </nav>
             </div>
+
 
             <Blog></Blog>
 

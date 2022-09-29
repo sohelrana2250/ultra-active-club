@@ -32,7 +32,9 @@ const blog = () => {
                                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
 
-                                            <p>ReactJS divides the UI into isolated reusable pieces of code known as components. React components work similarly to JavaScript functions as they accept arbitrary inputs called properties or props. It's possible to have as many components as necessary without cluttering your code.</p>
+                                            <p>
+                                                ReactJS divides the UI into isolated reusable pieces of code known as components. React components work similarly to JavaScript functions as they accept arbitrary inputs called properties or props. It's possible to have as many components as necessary without cluttering your code.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -63,6 +65,7 @@ const blog = () => {
                                         <div class="accordion-body">
                                             <p>
                                                 From the previous question, we found out that componentDidMount doesn't have the same behavior with useEffect hook, because componentDidMount invoked synchronously before the browser paints the screen, while useEffect is invoked asynchronously after the browser has already painted the screen.
+
                                             </p>
 
                                             <p>You can have multiple useEffects in your code and this is completely fine! As hooks docs say, you should separate concerns. Multiple hooks rule also applies to useState - you can have multiple useState in one component to separate different part of the state, you don't have to build one complicated state object.</p>
