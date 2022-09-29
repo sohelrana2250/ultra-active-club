@@ -3,4 +3,68 @@
     position: sticky;
     top: 0;
     padding: 28px;
+
+}
+
+.margine-handel {
+
+    margin-left: 10px;
+
+
+
+}
+
+.weight {
+
+    margin-left: 10px;
+    padding: 5px 3px 3px 5px;
+    background-color: lightgrey;
+    text-align: center;
+    border-radius: 10px;
+
+
+}
+
+.weight:hover {
+
+    background-color: rgb(100, 185, 66);
+}
+
+.time-boundary {
+
+
+    margin: 3px;
+    padding: 5px;
+    border: 2px solid lightgreen;
+    border-radius: 10px;
+}
+
+.button-click {
+
+    margin-top: 5px;
+    border-radius: 10px;
+
+
+
+}
+
+.button-click:hover {
+    background-color: rgb(43, 43, 214);
+
+}
+
+@media screen and (max-width: 576px) {
+    .card {
+        width: 290px;
+    }
+
+
+
+}
+
+@media screen and ((min-width: 577px) and (max-width:1023px)) {
+    .card {
+        width: 680px;
+    }
+
 }

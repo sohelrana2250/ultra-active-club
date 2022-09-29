@@ -30,7 +30,7 @@ const Header = () => {
         //console.log(clickData);
     }
 
-    console.log(activityCard);
+
 
 
 

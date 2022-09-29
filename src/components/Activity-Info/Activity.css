@@ -44,3 +44,46 @@
 
     background-color: orangered;
 }
+
+@media screen and (max-width: 576px) {
+    .product {
+
+        width: 280px;
+        height: 565px;
+        border: 2px solid rgb(18, 94, 34);
+        border-radius: 10px;
+        margin: 10px;
+
+    }
+
+    .product img {
+
+        width: 276px;
+        height: 286px;
+
+
+
+    }
+
+}
+
+@media screen and ((min-width: 577px) and (max-width:1023px)) {
+    .product {
+
+        width: 280px;
+        height: 565px;
+        border: 2px solid rgb(18, 94, 34);
+        border-radius: 10px;
+        margin: 10px;
+
+    }
+
+    .product img {
+
+        width: 276px;
+        height: 286px;
+
+
+
+    }
+}
