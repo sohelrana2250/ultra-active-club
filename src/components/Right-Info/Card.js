@@ -79,7 +79,7 @@ const Card = (props) => {
                     </div>
 
                 </div>
-                <h4 className='mt-3 text-center '>Add a break</h4>
+                <h4 className='mt-3 text-center '>Add a break.</h4>
 
                 <div className='row  bg-light'>
 
